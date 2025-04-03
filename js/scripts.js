@@ -1,0 +1,16 @@
+$(document).ready(function(){
+  $("#responsiveness").click(function(){
+    $("#item1-responsiveness").show();
+    $(".item1").show();
+    $("#responsiveness").hide();
+    $("#hide-all-except-item1-reponsiveness").hide();
+    $("#minX").show();
+  })
+  $("#minX").click(function(){
+    $("#item1-responsiveness").hide();
+    $(".item1").hide();
+    $("#minX").hide();
+    $("#hide-all-except-item1-reponsiveness").show();
+    $("#responsiveness").show();
+  })
+})

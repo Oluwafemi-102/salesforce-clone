@@ -1347,6 +1347,9 @@ body {
         margin-top: 40vmin;
         margin-bottom: 50vmin;
     }
+    #multiply #mul-text{
+       font-size: 8vmin;
+    }
     #boxes {
         display: flex;
         justify-content: center;
@@ -1355,7 +1358,7 @@ body {
         height: 50vmin;
     }
     #box1 {
-        width: 150px;
+        width: 120px;
         height: 55px;
        background-image: url(img/box1.webp);
        background-position: center right;
@@ -1366,7 +1369,7 @@ body {
        display: none;
     }
     #box2 {
-        width: 150px;
+        width: 120px;
         height: 55px;
        background-image: url(img/box2.webp);
        background-position: left center;
@@ -1377,7 +1380,7 @@ body {
        display: none;
     }
     #box3 {
-        width: 150px;
+        width: 120px;
         height: 55px;
        background-image: url(img/box3.webp);
        background-position: left center;
@@ -1388,7 +1391,7 @@ body {
        display: none;
     }
     #box4 {
-        width: 150px;
+        width: 120px;
         height: 55px;
        background-image: url(img/box4.webp);
        background-position: left center;
@@ -1399,7 +1402,7 @@ body {
        display: none;
     }
     #box5 {
-        width: 150px;
+        width: 120px;
         height: 70px;
        background-image: url(img/box5.webp);
        background-position: center top;
@@ -1410,6 +1413,7 @@ body {
        display: none;
     }
     #Agentforce {
+        margin-top: 68vmin;
         width: 95vmin;
         height: 70vh;
         margin-left: 1vmin;
@@ -1437,7 +1441,7 @@ body {
         width: 59vmin;
     }
     .a-img{
-        margin-top: 40vmin;
+        margin-top: 50vmin;
     }
     #marketing {
         width: 80%;
@@ -1466,8 +1470,9 @@ body {
         background-image: url(img/bunch-of-logos.webp);
         background-size: contain;
         background-repeat: no-repeat;
-        width: 95%vmin;
+        width: 95%;
         height: 35vmin;
+        margin-top: 40vmin;
     }
     #bunch img{
         display: none;
@@ -1990,7 +1995,7 @@ body {
         font-size: 10vmin;
     }
     #multiply{
-        margin-top: 60vmin;
+        margin-top: 65vmin;
         margin-bottom: 50vmin;
     }
     #boxes {
@@ -2933,7 +2938,7 @@ body {
 
     #nav-button {
         margin-top: 0%;
-        margin-right: 2vmin;
+        margin-right: 4vmin;
         height: 6vmin;
         width: 19vmin;
         font-size: 2vmin;
@@ -3055,18 +3060,18 @@ body {
        display: none;
     }
     #Agentforce {
-        width: 95vmin;
+        width: 100%;
         height: 90vh;
         margin-left: 1vmin;
-        flex-wrap: wrap;
-        gap: 1vmin;
+        flex-wrap: nowrap;
+        gap: 0.2vmin;
     }
     #Agentforce .a-img{
       height: 5vmin;
-      margin-top: 40vmin;
+      margin-top: 20vmin;
     }
     .meet{
-        font-size: 7vmin;
+        font-size: 5vmin;
     }
     .boost{
         font-size: 3vmin;
